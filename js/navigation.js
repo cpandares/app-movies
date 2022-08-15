@@ -29,9 +29,7 @@ function navigator() {
 }
 
 function homePage() {
-  console.log("home page");
-
-  headerSection.classList.remove("header-container--long");
+   headerSection.classList.remove("header-container--long");
   headerSection.style.backgroun = "";
   arrowBtn.classList.add("inactive");
   arrowBtn.classList.remove("header-arrow--white");
